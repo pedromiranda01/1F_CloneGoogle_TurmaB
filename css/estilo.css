@@ -18,16 +18,89 @@ body{
 }
 
 header{
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+
+}
+
+ion-icon {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: .3s;
+
+}
+
+ion-icon:hover {
+    background: #6b7682;
+    border-radius: 20px;
+}
+
+.link{
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: 400;
+    color: #5b5a5b;
+    font-size: 14px;
+
+}
+
+.btn{
+    background: #1a73ebc4;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+
+.btn:hover{
+    background: #1a73e8e8;
+}
+
+.btn-cinza{
+    font-size: 13px;
+    text-decoration: none;
+    background: #f9f9fa;
+    padding: 8px 15px 8px 15px;
+    color: #6b7682;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.Pesquisa{
+    height: 40px;
+    min-width: 50vw;
+    max-width: 75vw;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+
 }
 
 main{
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     flex-grow: 1;
 }
 
 footer{
-    background-color: green;
+    color: #6b7682;
+    background: #f2f2f2;;
     height: 60px;
+    border-bottom: 3px solid #dddfe3 ;
+    font-size: 16px;
+    padding-left: 15px;
+
+    display: flex;
+    align-items: center;
+} 
+    
+.caixa-imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
 }
